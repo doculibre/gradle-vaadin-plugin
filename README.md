@@ -17,3 +17,7 @@ To get started using the plugin have a look a the Gradle Vaadin Plugin Wiki at h
 # License
 This software is distributed under the Apache License 2.0. For more information about the license see the LICENSE.md file 
 in the root directory of the repository.
+
+# How to make a change
+Use branch gradle7
+Run the gradle task "build" and retrieve the generated jar
