@@ -20,6 +20,8 @@ import com.devsoap.plugin.Util
 import org.gradle.api.file.FileCollection
 import org.gradle.api.provider.Property
 import org.gradle.api.provider.Provider
+import org.gradle.api.tasks.Internal
+import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.bundling.Jar
 
 /**
@@ -32,6 +34,7 @@ class BuildClassPathJar extends Jar {
 
     public static final String NAME = 'vaadinClassPathJar'
 
+    @Internal
     private final Property<Boolean> useClassPathJar = project.objects.property(Boolean)
 
     BuildClassPathJar() {

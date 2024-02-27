@@ -39,7 +39,7 @@ plugins {
 
 defaultTasks 'jar'
 group = "com.devsoap.plugin"
-version = "2.0.0.beta3"
+version = "2.0.0.beta4"
 archivesBaseName ='gradle-vaadin-plugin'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
